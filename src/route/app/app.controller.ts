@@ -15,4 +15,10 @@ export default class AppController {
   sayHello(): string {
     return this.appService.sayHello();
   }
+
+
+  @Get("/hi")
+  sayHi(): string {
+    return this.appService.sayHello();
+  }
 }
