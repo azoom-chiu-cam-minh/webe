@@ -56,5 +56,3 @@ yarn.lock
 /src/route/v1/features/f1-customer
 .gzip
 .tar
-
-.github/
