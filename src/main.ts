@@ -101,8 +101,8 @@ async function bootstrap() {
     );
   });
 
-  const httpAdapter = app.getHttpAdapter();
-  const router = httpAdapter.getInstance()._router;
+  // const httpAdapter = app.getHttpAdapter();
+  // const router = httpAdapter.getInstance()._router;
 
   // await app.get<GroupDetailService>(GroupDetailService).seed(router);
   // await app.get<GroupApiService>(GroupApiService).seed(router);
